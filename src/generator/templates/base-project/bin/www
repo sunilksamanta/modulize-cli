@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+'use strict';
+const express = require('express');
+const app = express();
+const initializeDatabases = require('../dbs');
+const application = require('../app');
+app.use('/assets',express.static(__dirname + '/public'));
+let port = 3001;
+
+initializeDatabases().then(dbs => {
+  console.log('Database Connected!');
+  // Initialize the application once database connections are ready.
+  application(app, dbs).listen(port, () => console.log('Listening on port ', port));
+}).catch(err => {
+  console.error('Database connection Failed');
+  console.error(err);
+  process.exit(1);
+});

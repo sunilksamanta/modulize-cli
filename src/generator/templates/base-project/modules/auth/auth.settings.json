@@ -1,0 +1,26 @@
+{
+  "collectionName": "user_test",
+  "accessTokenCollection": "access_token",
+  "publicMethods": [],
+  "privateMethods": [],
+  "properties": {
+    "user_id": {
+      "type": "number",
+      "required": "true",
+      "primary_key": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "{{PROJECT_SLUG}}",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^1.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "ip": "^1.1.5",
+    "mongodb": "^3.1.13",
+    "morgan": "~1.9.0",
+    "saslprep": "^1.0.3"
+  }
+}

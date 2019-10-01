@@ -1,6 +1,6 @@
 {
   "name": "modulize-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modulized NodeJS REST API Generator",
   "main": "bin/index.js",
   "scripts": {

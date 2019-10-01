@@ -9,6 +9,12 @@
   },
   "author": "Sunil Kr. Samanta",
   "license": "ISC",
+  "keywords": [
+    "rest",
+    "node",
+    "express",
+    "mongodb"
+  ],
   "dependencies": {
     "chalk": "^2.4.2",
     "cli-spinner": "^0.2.10",

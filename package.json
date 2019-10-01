@@ -7,6 +7,10 @@
     "test": "echo \"No test specified\"",
     "start": "node bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunilksamanta/modulize-cli.git"
+  },
   "author": "Sunil Kr. Samanta",
   "license": "ISC",
   "keywords": [

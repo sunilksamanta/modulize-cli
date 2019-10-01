@@ -2,13 +2,13 @@
 Modulize CLI - NodeJS Moduler REST API Generator
 
 ## Features
-1. Build REST API With Token Based Authentication
-2. Supported DB: MongoDB
-3. CLI for CRUD Module Generation
+1. Build REST API With Token(DB Store) Based Authentication
+2. Supported DB: MongoDB (Official MongoDB Driver only)
+3. CLI for CRUD Module Generation (Coming Soon)
 4. Completely Customizable
+5. Built in Validator
+6. Standard REST API urls
 
 ## Installation
-1. Download Zip and extract or Clone from master.
-2. Run `npm install` inside project directory.
-3. Run `npm i -g` to make the CLI available to the system.
-4. Run `modulize-cli` in terminal in your workspace and follow the instructions.
+1. Run `npm install modulize-cli -g` in terminal.
+2. Run `modulize-cli` in terminal in your workspace and follow the instructions.

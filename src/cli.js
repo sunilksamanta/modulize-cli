@@ -47,3 +47,12 @@ module.exports.intro = (projectName, dbURI, dbName) => new Promise((resolve, rej
 
     });
 });
+
+
+
+
+
+module.exports.generateModule = (moduleSingularName, ModulePluralName) => new Promise((resolve, reject) => {
+
+
+});
